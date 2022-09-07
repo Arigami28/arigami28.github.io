@@ -24,5 +24,14 @@
       <description>Sample kafka command.</description>
     </item>
     
+    <item>
+      <title>Kafka command</title>
+      <link>https://arigami28.github.io/posts/mongodb/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://arigami28.github.io/posts/mongodb/</guid>
+      <description>Sample mongodb command.</description>
+    </item>
+    
   </channel>
 </rss>
