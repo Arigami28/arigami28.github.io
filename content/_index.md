@@ -1,5 +1,5 @@
 ---
-title: Blog
-summary: Contains posts related to Blog
-description: Contains posts related to Blog
+title: Notes
+summary: Contains posts related to notes.
+description: Contains posts related to notes.
 ---

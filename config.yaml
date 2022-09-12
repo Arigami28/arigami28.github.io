@@ -1,5 +1,5 @@
 baseURL: "https://arigami28.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: Blog
+#title: Profile
 paginate: 5
 theme: PaperMod
 
@@ -32,19 +32,22 @@ languages:
             # imageWidth: 120
             # imageHeight: 120
             subtitle: "DevOps / SRE"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: GitHub
-                  url: https://github.com/Arigami28
+#            buttons:
+#                - name: Notes
+#                  url: posts
+#                - name: GitHub
+#                  url: https://github.com/Arigami28
         menu:
             main:
-                - name: Posts
+                - name: Profile
+                  url: /
+                  weight: 3
+                - name: Notes
                   url: posts
                   weight: 4
-                - name: Archive
-                  url: archives
-                  weight: 6
+#                - name: Archive
+#                  url: archives
+#                  weight: 6
                 - name: Search
                   url: search/
                   weight: 5
@@ -56,10 +59,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Blog randreev"
+    description: "Notes randreev"
     author: randreev
-    # author: ["Me", "You"] # multiple authors
-
     defaultTheme: auto
     disableThemeToggle: true
     ShowShareButtons: true
@@ -74,23 +75,10 @@ params:
     # comments: false
 #    images: ["papermod-cover.png"]
 
-    profileMode:
-        enabled: false
-        title: Blog
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-
-#    homeInfoParams:
-#        Title: "randreev"
-#        Content: >
-#            Welcome to blog randreev
+    homeInfoParams:
+        Title: "randreev"
+        Content: >
+            Welcome to Notes randreev
 
     socialIcons:
         - name: github
