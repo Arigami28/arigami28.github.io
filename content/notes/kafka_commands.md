@@ -1,7 +1,7 @@
 ---
 author: "Roman Andreev"
 title: "Kafka commands"
-date: "2022-09-15"
+date: "2022-09-14"
 description: "Sample kafka command."
 tags: ["kafka","kafka_commands"]
 categories: ["kafka"]
