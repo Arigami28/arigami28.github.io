@@ -31,7 +31,7 @@ languages:
             imageTitle: Andreev Roman
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "DevOps / SRE"
+            subtitle: "DevOps"
 #            buttons:
 #                - name: Notes
 #                  url: posts
@@ -43,11 +43,11 @@ languages:
                   url: /
                   weight: 3
                 - name: Notes
-                  url: posts
+                  url: notes
                   weight: 4
-#                - name: Archive
-#                  url: archives
-#                  weight: 6
+                - name: Tags
+                  url: tags
+                  weight: 6
                 - name: Search
                   url: search/
                   weight: 5
@@ -61,19 +61,18 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Notes randreev"
     author: randreev
-    defaultTheme: auto
+    defaultTheme: dark
     disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: false
     disableSpecial1stPost: true
     displayFullLangName: false
-    ShowPostNavLinks: true
+    ShowPostNavLinks: false
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: false
     ShowToc: true
-    # comments: false
-#    images: ["papermod-cover.png"]
+    comments: false
 
     homeInfoParams:
         Title: "randreev"
@@ -83,6 +82,10 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/Arigami28?tab=repositories"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2-ab8593197/"
+        - name: telegram
+          url: "https://t.me/AndreevRoman_RND"
 #        - name: Rss
 #          url: "index.xml"
 
